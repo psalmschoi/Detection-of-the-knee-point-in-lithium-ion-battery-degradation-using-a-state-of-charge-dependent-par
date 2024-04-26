@@ -4,7 +4,7 @@ The code in this repository shows how to utilizing the data associated with the 
 
 This analysis was originally performed in python.
 
-The data utilizing codes can be grouped into one of three categories: delta Q0.2C-1C related data, RPT summary data, and DCIR@SOC5 at EOL data, deg-SL and 2ndlifetime regression codes.
+The data utilizing codes can be grouped into one of three categories: delta Q0.2C-1C related feature, RPT diagnosis feature, DCIR@SOC5 at EOL, and deg-SL estimation & 2nd lifetime prediction regression codes.
 
 delta Q0.2C-1C related data: Extracting  Q0.2C-1C(V), Var (delta Q0.2C-1C(V)) in every RPTs
 
