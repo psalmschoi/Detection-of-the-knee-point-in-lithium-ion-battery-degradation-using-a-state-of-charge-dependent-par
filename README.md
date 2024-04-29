@@ -4,7 +4,7 @@ The code in this repository shows how to utilizing the data associated with the 
 
 This analysis was originally performed in python.
 
-The data utilizing codes can be grouped into one of three categories: delta Q0.2C-1C related feature, RPT diagnosis feature, DCIR@SOC5 at EOL, and deg-SL estimation & 2nd lifetime prediction regression codes.
+The data utilizing codes can be grouped into one of three categories: RPT feature, 0.2C-1C_delta Q(V)_feature, and deg-SL estimation & 2nd lifetime prediction regression codes.
 
 RPT_feature: Extracting 0.2C, 1C capacity, DCIR@SOC50, DCIR versus SOC (SOC0~80) in every RPTs
 
