@@ -6,11 +6,9 @@ This analysis was originally performed in python.
 
 The data utilizing codes can be grouped into one of three categories: delta Q0.2C-1C related feature, RPT diagnosis feature, DCIR@SOC5 at EOL, and deg-SL estimation & 2nd lifetime prediction regression codes.
 
-delta Q0.2C-1C related data: Extracting  Q0.2C-1C(V), Var (delta Q0.2C-1C(V)) in every RPTs
+RPT_feature: Extracting 0.2C, 1C capacity, DCIR@SOC50, DCIR versus SOC (SOC0~80) in every RPTs
 
-RPT summary data: Extracting 0.2C, 1C capacity, DCIR@SOC50, dQdV &dVdQ of 0.2C and 1C charging/discharing curves in every RPTs
-
-DCIR@SOC5 at EOL data: Extracting DCIR@SOC5 at EOL data from GITT at EOL.
+0.2C-1C_delta Q(V)_feature: Extracting  Q0.2C-1C(V), Var(delta Q0.2C-1C(V)) in every RPTs
 
 regresssion_deg-SL  : Machine learning code for estimating deg-SL.
 regresssion_2nd_lifetime & dummy_regression_2nd_lifetime :  Machine learning code for predicting 2nd lifetime.
