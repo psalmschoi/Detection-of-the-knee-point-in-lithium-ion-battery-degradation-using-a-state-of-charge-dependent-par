@@ -11,4 +11,5 @@ RPT_feature: Extracting 0.2C, 1C capacity, DCIR@SOC50, DCIR versus SOC (SOC0~80)
 0.2C-1C_delta Q(V)_feature: Extracting  Q0.2C-1C(V), Var(delta Q0.2C-1C(V)) in every RPTs
 
 regresssion_deg-SL  : Machine learning code for estimating deg-SL.
+
 regresssion_2nd_lifetime & dummy_regression_2nd_lifetime :  Machine learning code for predicting 2nd lifetime.
