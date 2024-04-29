@@ -12,4 +12,4 @@ RPT_feature: Extracting 0.2C, 1C capacity, DCIR@SOC50, DCIR versus SOC (SOC0~80)
 
 regresssion_deg-SL  : Machine learning code for estimating deg-SL.
 
-regresssion_2nd_lifetime & dummy_regression_dummy_2nd_lifetime :  Machine learning code for predicting 2nd lifetime.
+regresssion_2nd_lifetime & regression_dummy_2nd_lifetime :  Machine learning code for predicting 2nd lifetime.
