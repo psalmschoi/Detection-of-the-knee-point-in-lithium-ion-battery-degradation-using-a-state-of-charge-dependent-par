@@ -1,6 +1,6 @@
-# History-independent detection of knee-point of lithium-ion battery lifetime
+#Single-point diagnosis for detecting the critical health state of lithium-ion batteries 
 
-The code in this repository shows how to utilizing the data associated with the paper 'History-independent detection of knee-point in lithium ion battery lifetime' by Hyunjae Kim, Inwoo Kim, Minsoo KIM et al. The data is available at https://doi.org/10.17632/zn82y35zr8.1. There you can also find more details about the data.
+The code in this repository shows how to utilizing the data associated with the paper 'Single-point diagnosis for detecting the critical health state of lithium-ion batteries ' by Hyunjae Kim, Inwoo Kim, Minsoo KIM et al. The data is available at https://doi.org/10.17632/zn82y35zr8.1. There you can also find more details about the data.
 
 This analysis was originally performed in python.
 
