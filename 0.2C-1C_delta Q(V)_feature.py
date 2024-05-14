@@ -82,7 +82,7 @@ for path_2 in subfolders:
         var=df_new2['Delta Q'].var()
         df_final=df_new.set_index('Voltage')
         data_folder='C:~'#The directory path of the folder where the data-saving file is located.
-        excel_file=data_folder+'1C-0.2C_delta_Q(V).xlsx'#The Excel file address to save the data of Q0.2C-1C(V) corresponding to each cell's RPT
+        excel_file=data_folder+'0.2C-1C_delta_Q(V).xlsx'#The Excel file address to save the data of Q0.2C-1C(V) corresponding to each cell's RPT
         wb=xw.Book(excel_file)
         sht=wb.sheets['RPT'+str(row)]
         sht.range((3,num+1)).value= np.array(df_final['Delta Q']).reshape(-1,1)
@@ -91,7 +91,7 @@ for path_2 in subfolders:
         wb.app.quit() 
 
         data_folder='C:~'#The directory path of the folder where the data-saving file is located.
-        excel_file=data_folder+'Var_1C-0.2C_delta_Q(V).xlsx'#The Excel file address to save the data of Var (Q0.2C-1C(V)) corresponding to each cell's RPT
+        excel_file=data_folder+'Var_0.2C-1C_delta_Q(V).xlsx'#The Excel file address to save the data of Var (Q0.2C-1C(V)) corresponding to each cell's RPT
         wb=xw.Book(excel_file)
         sht=wb.sheets['Variance']
         sht.range((row+3,num+1)).value=var
