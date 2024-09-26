@@ -1,6 +1,5 @@
-#Single-point diagnosis for detecting the critical health state of lithium-ion batteries 
-
-The code in this repository shows how to utilizing the data associated with the paper 'Single-point diagnosis for detecting the critical health state of lithium-ion batteries ' by Hyunjae Kim, Inwoo Kim, Minsoo KIM et al. The data is available at https://doi.org/10.17632/zn82y35zr8.1. There you can also find more details about the data.
+#Detection  of the knee point in lithium ion battery degradation using a state of charge dependent parameter
+The code in this repository shows how to utilizing the data associated with the paper 'Detection  of the knee point in lithium ion battery degradation using a state of charge dependent parameter ' by Hyunjae Kim, Inwoo Kim, Minsoo KIM et al. The data is available at https://doi.org/10.17632/zn82y35zr8.3. There you can also find more details about the data.
 
 This analysis was originally performed in python.
 
