@@ -50,7 +50,7 @@ for i in range(1000):
     param_grid = {
         'logreg__C': np.logspace(-4, 4, 20),
         'logreg__penalty': ['l1', 'l2'],  # L1 = Lasso, L2 = Ridge
-        'logreg__solver': ['liblinear']   # L1 규제에 필요한 solver
+        'logreg__solver': ['liblinear']   # L1 solver
     }
 
     grid_search = GridSearchCV(pipe, param_grid, cv=StratifiedKFold(5), n_jobs=-1)
