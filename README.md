@@ -6,7 +6,7 @@ The data utilizing codes can be grouped into one of three categories: RPT featur
 
 RPT_feature: Extracting 0.2C, 1C capacity, DCIR@SOC50, DCIR versus SOC (SOC0~80) in every RPTs
 
-0.2C-1C_delta Q(V)_feature: Extracting Q0.2C-1C(V), Var(delta Q0.2C-1C(V)) in every RPTs
+0.2C-1C_delta Q(V)_feature: Extracting Q0.2C-1C(V), Var(delta Q0.2C-1C(V)),Mean(delta Q0.2C-1C(V)) in every RPTs
 
 regresssion_deg-SL : Machine learning code for estimating deg-SL.
 
